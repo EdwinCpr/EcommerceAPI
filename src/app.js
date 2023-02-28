@@ -8,6 +8,7 @@ import usersRoutes from "./routes/users.routes.js";
 connectDB();
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 app.use("/api/v1", usersRoutes);
 app.use("/api/v1", cartsRoutes);
