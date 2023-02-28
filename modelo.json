@@ -1,0 +1,17 @@
+{
+    "firstName": "Edwin",
+    "lastName": "Echeverria",
+    "email": "ed@gmail.com",
+    "password": "goku"
+}
+
+{
+    "name": "Arroz",
+    "description": "Producto alimenticio",
+    "price": 1,
+    "quantity": 20
+}
+
+{
+    "name": "Alimento"
+}
