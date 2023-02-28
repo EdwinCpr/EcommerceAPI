@@ -3,6 +3,6 @@ import { createProduct, getProducts } from "../controllers/products.controllers.
 import checkAuth from "../middlewares/checkAuth.middlewares.js";
 
 const router = express.Router();
-router.route("/products").post(checkAuth, createProduct).get(checkAuth, getProducts);
+router.route("/products").post(checkAuth, createProduct).get(getProducts);
 
 export default router;
